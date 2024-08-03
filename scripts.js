@@ -69,7 +69,7 @@ function displayProfiles(profiles) {
             <p>🗾 In-Person: ${profile.areaa}</p>
             <p>💻 Remote: ${profile.remote}</p>
             <p>👨‍🎓 Student: ${profile.student_age}</p>
-            <button class="glow-on-hover" type="button" onclick="showContact('${profile.skill}','${profile.areaa}','${profile.remote}','${profile.student_age}','${profile.whatsapp}', '${profile.email}', '${profile.phone}', '${profile.portLink}')">Hire Me</button>
+            <button class="glow-on-hover" type="button" onclick="showContact('${profile.skill}','${profile.areaa}','${profile.remote}','${profile.student_age}','${profile.whatsapp}', '${profile.email}', '${profile.phone}', '${profile.protLink}')">Hire Me</button>
         `;
         profileList.appendChild(profileDiv);
     });
@@ -88,7 +88,7 @@ function searchProfiles() {
 }
 
 // Function to show contact info in modal
-function showContact(skill, areaa, remote, student_age, whatsapp, email, phone, portLink) {
+function showContact(skill, areaa, remote, student_age, whatsapp, email, phone, protLink) {
     const modal = document.getElementById('contactModal');
     const modalContent = document.getElementById('modalContent');
     modalContent.innerHTML = `
@@ -96,7 +96,7 @@ function showContact(skill, areaa, remote, student_age, whatsapp, email, phone, 
         <p>🗾 Area: ${areaa}</p>
         <p>💻 Remote: ${remote}</p>
         <p>👨‍🎓 Student: ${student_age}</p>
-        <p> Resume: ${portLink}</p>
+        <p> Resume: <a href="'${protLink}'">Click me</a></p>
         <p>✆ WhatsApp: ${whatsapp}</p>
         <p>📮 Email: ${email}</p>
         <p>☎️ Phone: ${phone}</p>
