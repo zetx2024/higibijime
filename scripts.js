@@ -1,11 +1,11 @@
-// Example JSON data
+
 const profiles = [
     {
         "name": "Sanaul Haque",
         "email": "shanto@extramee.com",
         "skill": "Computer Basic to Advance",
         "student_age": "Anyone",
-        "areaa": "Rajshahi City Only",
+        "areaa": "Rajshahi City(WARD 3,4,5,6 Only)",
         "remote": "Yes. Google Meet/Zoom",
         "school": "RGLHS'18, BMARPC'20, Badger'29",
         "phone": "+8801791694602",
@@ -31,7 +31,7 @@ const profiles = [
         "email": "shanto@extramee.com",
         "skill": "HSC ICT Full",
         "student_age": "Grade 11-12",
-        "areaa": "Rajshahi City Only",
+        "areaa": "Rajshahi City(WARD 3,4,5,6 Only)",
         "remote": "Yes. Google Meet/Zoom",
         "school": "RGLHS'18, BMARPC'20, Badger'29",
         "phone": "+8801791694602",
@@ -44,7 +44,7 @@ const profiles = [
         "email": "shanto@extramee.com",
         "skill": "Competitive Programming",
         "student_age": "Anyone",
-        "areaa": "In-Person Rajshahi City Only",
+        "areaa": "Rajshahi City(WARD 3,4,5,6 Only)",
         "remote": "Yes. Google Meet/Zoom",
         "school": "RGLHS'18, BMARPC'20, Badger'29",
         "phone": "+8801791694602",
