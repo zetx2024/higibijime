@@ -9,6 +9,7 @@ const profiles = [
         "remote": "Yes. Google Meet/Zoom",
         "school": "RGLHS'18, BMARPC'20, Badger'29",
         "phone": "+8801791694602",
+        "salary": "Negotiable",
         "whatsapp": "+8801791694602",
         "avatar": "https://extramee.com/tuitorimg/shanto.PNG",
         "protLink": "https://yrjournal.org/md-log.pdf"
@@ -23,6 +24,7 @@ const profiles = [
         "school": "Helenabad'14, Rajshahi College'16, BAU'20",
         "phone": "+8801791694602",
         "whatsapp": "+8801791694602",
+        "salary": "Negotiable",
         "avatar": "https://extramee.com/tuitorimg/sumona.jpg",
         "protLink": "#"
     },
@@ -36,6 +38,7 @@ const profiles = [
         "school": "RGLHS'18, BMARPC'20, Badger'29",
         "phone": "+8801791694602",
         "whatsapp": "+8801791694602",
+        "salary": "Negotiable",
         "avatar": "https://extramee.com/tuitorimg/shanto.PNG",
         "protLink": "https://yrjournal.org/md-log.pdf"
     },
@@ -49,6 +52,7 @@ const profiles = [
         "school": "RGLHS'18, BMARPC'20, Badger'29",
         "phone": "+8801791694602",
         "whatsapp": "+8801791694602",
+        "salary": "Negotiable",
         "avatar": "https://extramee.com/tuitorimg/shanto.PNG",
         "protLink": "https://yrjournal.org/md-log.pdf"
     },
@@ -69,7 +73,7 @@ function displayProfiles(profiles) {
             <p>🗾 In-Person: ${profile.areaa}</p>
             <p>💻 Remote: ${profile.remote}</p>
             <p>👨‍🎓 Student: ${profile.student_age}</p>
-            <button class="glow-on-hover" type="button" onclick="showContact('${profile.skill}','${profile.areaa}','${profile.remote}','${profile.student_age}','${profile.whatsapp}', '${profile.email}', '${profile.phone}', '${profile.protLink}')">Hire Me</button>
+            <button class="glow-on-hover" type="button" onclick="showContact('${profile.skill}','${profile.salary}','${profile.areaa}','${profile.remote}','${profile.student_age}','${profile.whatsapp}', '${profile.email}', '${profile.phone}', '${profile.protLink}')">Hire Me</button>
         `;
         profileList.appendChild(profileDiv);
     });
@@ -88,7 +92,7 @@ function searchProfiles() {
 }
 
 // Function to show contact info in modal
-function showContact(skill, areaa, remote, student_age, whatsapp, email, phone, protLink) {
+function showContact( skill, salary, areaa, remote, student_age, whatsapp, email, phone, protLink) {
     const modal = document.getElementById('contactModal');
     const modalContent = document.getElementById('modalContent');
     modalContent.innerHTML = `
@@ -96,10 +100,13 @@ function showContact(skill, areaa, remote, student_age, whatsapp, email, phone, 
         <p>🗾 In-Person: ${areaa}</p>
         <p>💻 Remote: ${remote}</p>
         <p>👨‍🎓 Student: ${student_age}</p>
-        <p> Resume: <a href=${protLink}>Click me</a></p>
-        <p>✆ WhatsApp: ${whatsapp}</p>
+        <p>💸 Salary: ${salary}</p>
         <p>📮 Email: ${email}</p>
         <p>☎️ Phone: ${phone}</p>
+        <p>✆ WhatsApp: ${whatsapp}</p>
+        <p> Resume: <a href=${protLink}>Click me</a></p>
+       
+        
     `;
     modal.style.display = 'block';
 
