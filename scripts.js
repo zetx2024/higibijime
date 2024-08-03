@@ -5,7 +5,7 @@ const profiles = [
         "email": "shanto@extramee.com",
         "skill": "Computer Basic to Advance",
         "student_age": "Anyone",
-        "areaa": "In-Person Rajshahi City Only",
+        "areaa": "Rajshahi City Only",
         "remote": "Yes. Google Meet/Zoom",
         "school": "RGLHS'18, BMARPC'20, Badger'29",
         "phone": "+8801791694602",
@@ -18,7 +18,7 @@ const profiles = [
         "email": "sumona@extramee.com",
         "skill": "Academic",
         "student_age": "Class 6-10",
-        "areaa": "In-Person Rajshahi City (WARD 3,4,5,6 Only)",
+        "areaa": "Rajshahi City (WARD 3,4,5,6 Only)",
         "remote": "Yes. Google Meet/Zoom",
         "school": "Helenabad'14, Rajshahi College'16, BAU'20",
         "phone": "+8801791694602",
@@ -30,8 +30,8 @@ const profiles = [
         "name": "Sanaul Haque",
         "email": "shanto@extramee.com",
         "skill": "HSC ICT Full",
-        "student_age": "Anyone (Science, Arts, Commerce)",
-        "areaa": "In-Person Rajshahi City Only",
+        "student_age": "Grade 11-12",
+        "areaa": "Rajshahi City Only",
         "remote": "Yes. Google Meet/Zoom",
         "school": "RGLHS'18, BMARPC'20, Badger'29",
         "phone": "+8801791694602",
@@ -66,7 +66,7 @@ function displayProfiles(profiles) {
             <h2>${profile.name}</h2>
             <p>🏫 Institute: ${profile.school}</p>
             <p>🤹 Skill: ${profile.skill}</p>
-            <p>🗾 Area: ${profile.areaa}</p>
+            <p>🗾 In-Person: ${profile.areaa}</p>
             <p>💻 Remote: ${profile.remote}</p>
             <p>👨‍🎓 Student: ${profile.student_age}</p>
             <button class="glow-on-hover" type="button" onclick="showContact('${profile.skill}','${profile.areaa}','${profile.remote}','${profile.student_age}','${profile.whatsapp}', '${profile.email}', '${profile.phone}', '${profile.portLink}')">Hire Me</button>
@@ -88,7 +88,7 @@ function searchProfiles() {
 }
 
 // Function to show contact info in modal
-function showContact(skill, areaa, remote, student_age, whatsapp, email, phone) {
+function showContact(skill, areaa, remote, student_age, whatsapp, email, phone, portLink) {
     const modal = document.getElementById('contactModal');
     const modalContent = document.getElementById('modalContent');
     modalContent.innerHTML = `
