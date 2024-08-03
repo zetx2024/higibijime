@@ -93,10 +93,10 @@ function showContact(skill, areaa, remote, student_age, whatsapp, email, phone, 
     const modalContent = document.getElementById('modalContent');
     modalContent.innerHTML = `
         <p>🤹 Skill: ${skill}</p>
-        <p>🗾 Area: ${areaa}</p>
+        <p>🗾 In-Person: ${areaa}</p>
         <p>💻 Remote: ${remote}</p>
         <p>👨‍🎓 Student: ${student_age}</p>
-        <p> Resume: <a href="${protLink}">Click me</a></p>
+        <p> Resume: <a href=${protLink}>Click me</a></p>
         <p>✆ WhatsApp: ${whatsapp}</p>
         <p>📮 Email: ${email}</p>
         <p>☎️ Phone: ${phone}</p>
