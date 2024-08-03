@@ -253,12 +253,12 @@ h1 {
     box-shadow: 10px 10px 0 #FBC638;
 }
 
-.cta span:nth-child(2) {
+.cta span:nth-child(3) {
     transition: 0.5s;
     margin-right: 0px;
 }
 
-.cta:hover  span:nth-child(2) {
+.cta:hover  span:nth-child(3) {
     transition: 0.5s;
     margin-right: 45px;
 }
@@ -267,7 +267,7 @@ h1 {
     transform: skewX(15deg) 
   }
 
-  span:nth-child(2) {
+  span:nth-child(3) {
     width: 20px;
     margin-left: 30px;
     position: relative;
