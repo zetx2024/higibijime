@@ -106,6 +106,7 @@ h1 {
 .profile p {
     margin: 5px 0;
     color: #555;
+    font-size: .8em;
 }
 
 .glow-on-hover {
