@@ -79,7 +79,10 @@ function displayProfiles(profiles) {
 function searchProfiles() {
     const query = document.getElementById('searchInput').value.toLowerCase();
     const filteredProfiles = profiles.filter(profile =>
-        profile.name.toLowerCase().includes(query)
+        profile.name.toLowerCase().includes(query) ||
+        profile.school.toLowerCase().includes(query) ||
+        profile.skill.toLowerCase().includes(query) ||
+        profile.student_age.toString().includes(query)
     );
     displayProfiles(filteredProfiles);
 }
