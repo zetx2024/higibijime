@@ -56,6 +56,34 @@ const profiles = [
         "avatar": "https://extramee.com/tuitorimg/shanto.PNG",
         "protLink": "https://yrjournal.org/md-log.pdf"
     },
+    {
+        "name": "Sanaul Haque",
+        "email": "shanto@extramee.com",
+        "skill": "English to Bangla Translator",
+        "student_age": "Foreigner",
+        "areaa": "Anywhere",
+        "remote": "Yes. Google Meet/Zoom",
+        "school": "RGLHS'18, BMARPC'20, Badger'29",
+        "phone": "+8801791694602",
+        "whatsapp": "+8801791694602",
+        "salary": "Negotiable",
+        "avatar": "https://extramee.com/tuitorimg/shanto.PNG",
+        "protLink": "https://yrjournal.org/md-log.pdf"
+    },
+    {
+        "name": "Sanaul Haque",
+        "email": "shanto@extramee.com",
+        "skill": "Hindi to Bangla Translator",
+        "student_age": "Foreigner",
+        "areaa": "Anywhere",
+        "remote": "Yes. Google Meet/Zoom",
+        "school": "RGLHS'18, BMARPC'20, Badger'29",
+        "phone": "+8801791694602",
+        "whatsapp": "+8801791694602",
+        "salary": "Negotiable",
+        "avatar": "https://extramee.com/tuitorimg/shanto.PNG",
+        "protLink": "https://yrjournal.org/md-log.pdf"
+    }
 ];
 
 // Function to display profiles
