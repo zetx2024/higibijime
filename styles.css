@@ -185,6 +185,12 @@ h1 {
     max-width: 500px;
     position: relative;
 }
+.modal-content h2{
+    font-size: 1em;
+}
+.modal-content p{
+    font-size: .8em;
+}
 
 .close {
     color: #aaa;
