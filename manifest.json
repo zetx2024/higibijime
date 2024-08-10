@@ -5,7 +5,7 @@
         "description": "ExtraMee? Hire Me!.",
         "start_url": "/index.html",
         "background_color": "#089608",
-        "theme_color": "#089608",
+        "theme_color": "#eba205",
         "display": "standalone",
         "icons":[
         {
@@ -35,8 +35,8 @@
         "author": "Md Sanaul Haque Shanto",
         "short_name": "ExtraMee",
         "short_url": ".",
-        "background_color": "#089608",
-        "theme_color": "##089608",
+        "background_color": "#eba205",
+        "theme_color": "##eba205",
         "display": "standalone",
         "version": "1.0.0.01",
         "minimum-overwolf-version": "ExtraMee.com",
