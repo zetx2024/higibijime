@@ -31,8 +31,8 @@ const profiles = [
     {
         "name": "Sanaul Haque",
         "email": "shanto@eptonline.org",
-        "skill": "USA College Admission Information (Details)",
-        "student_age": "Class 6-BSC",
+        "skill": "USA College Admission Information Details",
+        "student_age": "Anyone",
         "areaa": "Remote Only",
         "remote": "Yes. Google Meet/Zoom",
         "school": "Accepted by 17 USA, 2 Russian, & 4 Indian University",
@@ -138,15 +138,15 @@ function showContact( skill, salary, areaa, remote, student_age, whatsapp, email
     const modal = document.getElementById('contactModal');
     const modalContent = document.getElementById('modalContent');
     modalContent.innerHTML = `
-        <p>🤹 Skill: ${skill}</p>
-        <p>🗾 In-Person: ${areaa}</p>
-        <p>💻 Remote: ${remote}</p>
-        <p>👨‍🎓 Student: ${student_age}</p>
-        <p>💸 Salary: ${salary}</p>
-        <p>📮 Email: ${email}</p>
-        <p>☎️ Phone: ${phone}</p>
-        <p>✆ WhatsApp: ${whatsapp}</p>
-        <p> Resume: <a href=${protLink}>Click me</a></p>
+        <p>🤹 Skill: ${skill}.</p>
+        <p>🗾 In-Person: ${areaa}.</p>
+        <p>💻 Remote: ${remote}.</p>
+        <p>👨‍🎓 Student: ${student_age}.</p>
+        <p>💸 Salary: ${salary} BdTK.</p>
+        <p>📮 Email: ${email}.</p>
+        <p>☎️ Phone: ${phone}.</p>
+        <p>✆ WhatsApp: ${whatsapp}.</p>
+        <p> Portfolio: <a href=${protLink}>Click me</a></p>
        
         
     `;
